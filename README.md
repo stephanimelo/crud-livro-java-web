@@ -42,3 +42,25 @@ GO
 2. Crie um login SQL Server e dê permissão de acesso ao banco `db_livraria`
 3. Ajuste usuário e senha em `src/main/java/conexao/ConexaoBD.java`
 4. Compile o projeto:
+mvn clean package
+
+5. Copie o `.war` gerado (`target/CrudLivro.war`) para a pasta `webapps` do Tomcat
+6. Inicie o Tomcat (`startup.bat`)
+7. Acesse: `http://localhost:8080/CrudLivro/livro` (ajuste a porta se necessário)
+
+## ✅ Funcionalidades
+
+- Criar livro
+- Listar livros
+- Editar livro
+- Excluir livro
+
+## 📸 Demonstração
+
+<p align="center">
+  <img src="CRUD.PNG" width="700" alt="Tela do CRUD funcionando - listagem"/>
+</p>
+
+<p align="center">
+  <img src="CRUD%202.PNG" width="700" alt="Tela do CRUD funcionando - cadastro"/>
+</p>
